@@ -20,12 +20,12 @@
 			<property name="hibernate.connection.driver_class"
 				value="com.mysql.jdbc.Driver" />
 			<!--配置数据库用户名 -->
-			<property name="hibernate.connection.username" value="root" />
+			<property name="hibernate.connection.username" value="user1" />
 			<!--配置数据库密码 -->
-			<property name="hibernate.connection.password" value="root" />
+			<property name="hibernate.connection.password" value="123456" />
 			<!--配置数据库url -->
 			<property name="hibernate.connection.url"
-				value="jdbc:mysql://10.214.192.121:3306/demo?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull" />
+				value="jdbc:mysql://59.111.97.234:3306/rds2" />
 
 			<!--设置外连接抓取树的最大深度 -->
 			<property name="hibernate.max_fetch_depth" value="10" />
